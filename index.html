@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Filmempfehlung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <h1>Filmempfehlung</h1>
+            <p>Weißt du nicht was du als nächstes schauen sollst? Suche dir hier Inspiration!</p>
+        </header>
+
+        <main>
+            <form action="recs.py" method="GET">
+                
+                <div>
+                    <label>Genre:</label>
+                    <select name="genre" id="genre">
+                        <option value="action">Action</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="drama">Drama</option>
+                        <option value="animation">Animationsfilm</option>
+                        <option value="romance">Romance</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="sci-fi">Sci-Fi</option>
+                        <option value="doku">Dokumentation</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Typ:</label>
+                    <select name="type" id="type">
+                        <option value="film">Film</option>
+                        <option value="serie">Serie</option>
+                        <option value="kurzfilm">Kurzfilm</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Alter:</label>
+                    <select name="age" id="age">
+                        <option value="kids">0-12 Jahre</option>
+                        <option value="teens">12-17 Jahre</option>
+                        <option value="adults">18+ Jahre</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Filter:</label><br>
+                    <input type="checkbox" name="filter" value="trigger1"> Major Character Death<br>
+                    <input type="checkbox" name="filter" value="indie"> Indie<br>
+                    <input type="checkbox" name="filter" value="adapted"> Adaptation<br>
+                    <input type="checkbox" name="filter" value="historisch"> Historisch<br>
+                    <input type="checkbox" name="filter" value="holiday"> Festlich<br>
+                    <input type="checkbox" name="filter" value="wahr"> Wahre Begebenheit<br>  
+                    <input type="checkbox" name="filter" value="seventies"> 70s<br>
+                    <input type="checkbox" name="filter" value="eigthies"> 80s<br>
+                    <input type="checkbox" name="filter" value="nineties"> 90s<br>
+                    <input type="checkbox" name="filter" value="y2k"> 2000er<br>
+                    <input type="checkbox" name="filter" value="tens"> 2010er<br>
+                    <input type="checkbox" name="filter" value="twenties"> 2020er<br>                  
+                </div>
+
+
+                <div>
+                <input type="submit" value="Filme empfehlen">
+                </div>
+            </form>
+            
+            
+        </main>
+    <footer>
+        <a href="https://fbi-alm-tools.th-brandenburg.de/bitbucket/users/ludwigs/repos/film-recs/browse">Quelle</a>
+    </footer>
+    </body>
+</html>
