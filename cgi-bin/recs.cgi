@@ -39,7 +39,7 @@ print("""
 <head>
 <meta charset="UTF-8">
 <title>Filmempfehlungen</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -60,7 +60,7 @@ else:
     print("<p>Keine passenden Filme gefunden.</p>")
 
 print("""
-<p><a href="index.html">Neue Suche</a></p>
+<p><a href="../index.html">Neue Suche</a></p>
 
 <footer>
 <a href="LINK_ZUM_REPOSITORY">
