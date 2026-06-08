@@ -513,5 +513,348 @@ filme = [
         "age": "adults",
         "filter": ["tens", "historisch", "wahr"]
     },
+    {
+        "title": "Kung Fu Panda",
+        "genre": ["animationsfilm", "comedy", "action"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["tens"]
+    },
+    {
+        "title": "Moana",
+        "genre": ["animationsfilm", "abenteuer"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["tens"]
+    },
+    {
+        "title": "The Incredibles",
+        "genre": ["animationsfilm", "action"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["y2k"]
+    },
+    {
+        "title": "Luca",
+        "genre": ["animationsfilm", "abenteuer"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["twenties"]
+    },
+    {
+        "title": "Spirited Away",
+        "genre": ["animationsfilm", "abenteuer"],
+        "land": "jp",
+        "type": "film",
+        "age": "kids",
+        "filter": ["y2k"]
+    },
+
+    {
+        "title": "My Neighbor Totoro",
+        "genre": ["animationsfilm", "drama"],
+        "land": "jp",
+        "type": "film",
+        "age": "kids",
+        "filter": ["eighties"]
+    },
+    {
+        "title": "Encanto",
+        "genre": ["animationsfilm", "drama"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["twenties"]
+    },
+    { 
+        "title": "Turning Red",
+        "genre": ["animationsfilm", "comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["twenties"]
+    },
+    {
+        "title": "The Mitchells vs. the Machines",
+        "genre": ["animationsfilm", "comedy", "action"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["twenties"]
+    },
+    {
+        "title": "Wolfwalkers",
+        "genre": ["animationsfilm", "abenteuer"],
+        "land": "ie",
+        "type": "film",
+        "age": "kids",
+        "filter": ["twenties", "historisch"]
+    },
+    {
+        "title": "The Pianist",
+        "genre": ["drama"],
+        "land": "fr",
+        "type": "film",
+        "age": "adults",
+        "filter": ["y2k", "historisch", "wahr", "trigger1"]
+    },
+
+    
+    {
+        "title": "To All the Boys I've Loved Before",
+        "genre": ["romance", "comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["tens", "adapted"]
+    },
+    {
+        "title": "Crazy Rich Asians",
+        "genre": ["romance", "comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["tens", "adapted"]
+    },
+    {
+        "title": "Pride & Prejudice",
+        "genre": ["romance", "drama"],
+        "land": "uk",
+        "type": "film",
+        "age": "teens",
+        "filter": ["y2k", "historisch", "adapted"]
+    },
+    {
+        "title": "Game Night",
+        "genre": ["comedy", "thriller"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["tens"]
+    },
+   
+    {
+        "title": "The Perks of Being a Wallflower",
+        "genre": ["drama"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["tens", "adapted"]
+    },
+    {
+        "title": "Dead Poets Society",
+        "genre": ["drama"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["eighties", "trigger1"]
+    },
+    {
+        "title": "Good Will Hunting",
+        "genre": ["drama"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["nineties"]
+    },
+    {
+        "title": "Jojo Rabbit",
+        "genre": ["drama", "comedy"],
+        "land": "nz",
+        "type": "film",
+        "age": "teens",
+        "filter": ["twenties", "historisch", "adapted"]
+    },
+    
+    {
+        "title": "Ocean's Eleven",
+        "genre": ["action", "comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["y2k"]
+    },
+    {
+        "title": "Rush Hour",
+        "genre": ["action", "comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["nineties"]
+    },
+    {
+        "title": "The Mummy",
+        "genre": ["action", "abenteuer"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["nineties"]
+    },
+    {
+        "title": "Jumanji: Welcome to the Jungle",
+        "genre": ["action", "comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",
+        "filter": ["tens"]
+    },
+    {
+        "title": "Superbad",
+        "genre": ["comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["tens"]
+    },
+    {
+        "title": "Gone Girl",
+        "genre": ["thriller", "drama"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["tens", "adapted"]
+    },
+    {
+        "title": "The Truman Show",
+        "genre": ["thriller", "drama"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["nineties"]
+    },
+    {
+        "title": "Get Out",
+        "genre": ["thriller"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["tens"]
+    },
+
+    {
+        "title": "Interstellar",
+        "genre": ["sci-fi", "drama"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["tens"]
+    },
+    {
+        "title": "The Martian",
+        "genre": ["sci-fi", "drama"],
+        "land": "us",
+        "type": "film",
+        "age": "teens",        
+        "filter": ["tens", "adapted"]
+    },
+    {
+        "title": "Wall-E",
+        "genre": ["animationsfilm", "sci-fi"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["tens"]
+    }, 
+    { 
+        "title": "Dark",
+        "genre": ["thriller", "sci-fi"],
+        "land": "de",
+        "type": "serie",
+        "age": "adults",
+        "filter": ["tens", "twenties"]
+    },
+    {
+        "title": "Pushing Daisies",
+        "genre": ["comedy", "romance"],
+        "land": "us",
+        "type": "serie",
+        "age": "teens",
+        "filter": ["tens"]
+    },
+    {
+        "title": "Our Flag Means Death",
+        "genre": ["comedy", "romance"],
+        "land": "us",
+        "type": "serie",
+        "age": "adults",
+        "filter": ["twenties", "historisch"]
+    },
+     {
+        "title": "Night at the Museum",
+        "genre": ["comedy", "abenteuer"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["y2k"]
+    },
+     {
+        "title": "Percy Jackson & the Olympians: The Lightning Thief",
+        "genre": ["abenteuer", "action"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["tens", "adapted"]
+    },
+    {
+        "title": "Jaws",
+        "genre": ["thriller"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["seventies"]
+    },
+    {
+        "title": "Der Schuh des Manitu",
+        "genre": ["comedy"],
+        "land": "de",
+        "type": "film",
+        "age": "adults",
+        "filter": ["y2k"]
+    },
+    
+    {
+        "title": "How to Train Your Dragon",
+        "genre": ["animationsfilm", "abenteuer"],
+        "land": "us",
+        "type": "film",
+        "age": "kids",
+        "filter": ["tens", "adapted"]
+    },
+    {
+        "title": "South Park: Bigger, Longer & Uncut",
+        "genre": ["animationsfilm", "comedy"],
+        "land": "us",
+        "type": "film",
+        "age": "adults",
+        "filter": ["nineties", "adapted"]
+    },
+      {
+        "title": "Semantic Error",
+        "genre": ["romance", "drama"],
+        "land": "kr",
+        "type": "serie",
+        "age": "teens",
+        "filter": ["twenties", "adapted"]
+    },
+    {
+        "title": "Sasaki and Miyano",
+        "genre": ["romance", "animationsfilm"],
+        "land": "jp",
+        "type": "serie",
+        "age": "teens",
+        "filter": ["twenties", "adapted"]
+    },
+    {
+        "title": "My Love Mix-Up!",
+        "genre": ["romance", "comedy", "animationsfilm"],
+        "land": "jp",
+        "type": "serie",
+        "age": "teens",
+        "filter": ["twenties", "adapted"]
+    },     
 ]
 
