@@ -1,8 +1,8 @@
-#!/usr python3
+#!/usr/bin/python3
 
 import cgi
 import sys
-sys.path.insert(0, '..')
+
 from filme import filme
 
 form = cgi.FieldStorage()
@@ -51,9 +51,14 @@ if empfehlungen:
     print("<ul>")
 
     for film in empfehlungen:
-        print(f"<li>{film['title']}</li>")
-
-    print("</ul>")
+    print(f"""
+    <div class="film-card">
+        <h2>{film['title']}</h2>
+        <p>Genre: {', '.join(film['genre'])}</p>
+        <p>Typ: {film['type']}</p>
+        <p>Altersgruppe: {film['age']}</p>
+    </div>
+    """)
 
 else:
 
