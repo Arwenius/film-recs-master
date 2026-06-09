@@ -41,8 +41,7 @@ print("""
 <body>
 
 <header>
-    <h1>🎬 Deine Filmempfehlungen</h1>
-    <p>Basierend auf deinen ausgewählten Filtern</p>
+    <h1>Deine Filmempfehlungen</h1>
 </header>
 
 <main>
@@ -81,7 +80,7 @@ print("""
 </main>
 
 <footer>
-    <a href="HIER_EURE_REPO_URL_EINFÜGEN">
+    <a href="https://github.com/Arwenius/film-recs-master">
         Repository
     </a>
 </footer>
