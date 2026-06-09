@@ -2,7 +2,7 @@
 filme = [
  
     {
-        "title": "Holes",
+        "title": "Holes ",
         "genre": ["abenteuer", "drama"],
         "land": "us",
         "type": "film",
