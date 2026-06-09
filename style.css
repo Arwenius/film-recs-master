@@ -69,3 +69,58 @@ select {
     background-color: #1a1a1a;
     color: #e1e1e1;
 }
+
+
+.film-card {
+    background-color: #262626;
+    border-left: 5px solid #a41d1d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #000000;
+}
+
+.film-card h2 {
+    color: #89c65d;
+    margin-top: 0;
+}
+
+.film-card p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+
+
+.no-results {
+    background-color: #262626;
+    border: 2px solid #a41d1d;
+    padding: 15px;
+    border-radius: 10px;
+    color: #e1e1e1;
+    text-align: center;
+}
+
+
+
+.button {
+    display: inline-block;
+    background-color: #a41d1d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ff1e62cf;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.results-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
