@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+print('Content-type: text/html \n')
 
 import cgi
 import sys
-
 from filme import filme
 
 form = cgi.FieldStorage()
@@ -30,47 +30,60 @@ for film in filme:
 
     empfehlungen.append(film)
 
-print("Content-Type: text/html")
-print()
-
 print("""
 <!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <title>Filmempfehlungen</title>
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="/~schularw/film-recs-master/style.css">
 </head>
 <body>
 
-<h1>Deine Filmempfehlungen</h1>
+<header>
+    <h1>🎬 Deine Filmempfehlungen</h1>
+    <p>Basierend auf deinen ausgewählten Filtern</p>
+</header>
+
+<main>
 """)
 
 if empfehlungen:
 
-    print("<ul>")
-
     for film in empfehlungen:
-    print(f"""
-    <div class="film-card">
-        <h2>{film['title']}</h2>
-        <p>Genre: {', '.join(film['genre'])}</p>
-        <p>Typ: {film['type']}</p>
-        <p>Altersgruppe: {film['age']}</p>
-    </div>
-    """)
+
+        genre_text = ", ".join(film["genre"])
+        filter_text = ", ".join(film["filter"])
+
+        print(f"""
+        <div class="film-card">
+            <h2>{film['title']}</h2>
+            <p><strong>Genre:</strong> {genre_text}</p>
+            <p><strong>Typ:</strong> {film['type']}</p>
+            <p><strong>Altersgruppe:</strong> {film['age']}</p>
+            <p><strong>Tags:</strong> {filter_text}</p>
+        </div>
+        """)
 
 else:
 
-    print("<p>Keine passenden Filme gefunden.</p>")
+    print("""
+    <div class="no-results">
+        Keine passenden Filme gefunden.
+    </div>
+    """)
 
 print("""
-<p><a href="../index.html">Neue Suche</a></p>
+<a class="button" href="/~schularw/film-recs-master/index.html">
+    Neue Suche
+</a>
+
+</main>
 
 <footer>
-<a href="LINK_ZUM_REPOSITORY">
-Repository
-</a>
+    <a href="HIER_EURE_REPO_URL_EINFÜGEN">
+        Repository
+    </a>
 </footer>
 
 </body>
